@@ -1,0 +1,64 @@
+* {
+    font-family: "inter", "sans-serif";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #f3f5fc;
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("assets/boneco.png");
+    background-repeat: no-repeat;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 24px;
+}
+
+.encriptar {
+    width: 328px;
+    height: 67px;
+    background: #0a3871;
+    color: white;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desencriptar {
+    width: 328px;
+    height: 67px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    color: #0a3871;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desencriptar:hover {
+    background-color: #e5e5e5;
+}
+
+.informacao {
+    font-size: 15px;
+}
