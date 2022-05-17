@@ -7,24 +7,44 @@
 
 body {
     background-color: #f3f5fc;
+    padding: 40px;
 }
 
 .main {
     display: flex;
     margin-left: 80px;
     margin-bottom: 50px;
+    gap: 80px;
+}
+
+.input-text {
+    display: grid;
+    width: 50%;
 }
 
 .input-texto {
     margin-top: 90px;
+    border: unset;
+}
+
+.atencao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.atencao1 {
+    width: 16px;
 }
 
 .mensagem {
     position: relative;
-    margin-top: 20px;
-    margin-left: 90px;
-    background-image: url("assets/boneco.png");
+    width: 400px;
+    height: 700px;
+    background-image: url("imagens/boneco.png");
     background-repeat: no-repeat;
+    background-position: center;
+    border: unset;
 }
 
 .botoes {
@@ -61,4 +81,50 @@ body {
 
 .informacao {
     font-size: 15px;
+}
+
+.input-texto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.info {
+    color: #343a40;
+}
+
+p {
+    color: #495057;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "inter";
+}
+
+.copy {
+    width: 328px;
+    height: 67px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    color: #0a3871;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copy:hover {
+    background-color: #e5e5e5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+img {
+    width: 40px;
 }

@@ -13,16 +13,17 @@
 <body>
 
     <head>
-        <img src="/assets/logoalura.png" alt="Logo da Alura com a inicial da letra a.">
+        <img src="/imagens/logoalura.png" alt="Logo da Alura com a inicial da letra a.">
     </head>
     <main class="main">
-        <section>
+        <section class="input-text">
             <textarea class="input-texto" cols="40" rows="6" placeholder="digite seu texto:"></textarea>
-            <div>
+            <div class="atencao">
+                <img class="atencao1" src="./imagens/atencaoIcon.png" />
                 <h6 class="informacao">Apenas letras maiúsculas e minúsculas</h6>
             </div>
             <div class="botoes">
-                <button class="encriptar">
+                <button class="encriptar" onclick="btnEbcriptar()">
                     Criptografar
                 </button>
                 <button class="desencriptar">
@@ -30,10 +31,26 @@
                 </button>
             </div>
         </section>
-        <section>
+        <section class="input-texto2">
             <textarea class="mensagem" cols="18" rows="8"></textarea>
+            <div>
+                <h2 class="info">Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <button class="copy" onclick="copiarTexto()">Copiar</button>
+
         </section>
     </main>
+    <footer>
+        <a href="https://github.com/joanealves">
+            <img src="./imagens/gitIcon.png" />
+        </a>
+        <a href="https://www.linkedin.com/in/joane-alves-ribeiro/">
+            <img src="./imagens/linkedin_icon.png" />
+        </a>
+        <p>Desenvolvido por Joane Alves</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
